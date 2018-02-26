@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-base64",
+  "version": "1.0.0",
+  "description": "The ultimate shortcut to the base64 encode/decode functions.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/catcher-in-the-try/base.64.git"
+  },
+  "keywords": [
+    "base64",
+    "encoding",
+    "decoding",
+    "base64-encode",
+    "base64-decode",
+    "base-64-encode",
+    "base-64-decode"
+  ],
+  "author": "Anton Ivanov <anton@ivanov.hk>",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/catcher-in-the-try/base.64/issues"
+  },
+  "homepage": "https://github.com/catcher-in-the-try/base.64#readme"
+}
