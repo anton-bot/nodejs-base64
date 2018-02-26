@@ -1,4 +1,4 @@
-# base.64 - Encode and decode using base64 in Node.js #
+# Base64 for Node.js - Encode and decode using base64 in Node.js #
 
 The ultimate shortcut for the base64 encode/decode functions in Node.js.
 
@@ -18,3 +18,7 @@ Don't be confuse by the dot in the package name. That's all right.
 ```
 npm i --save nodejs-base64
 ```
+
+## Requirements ##
+
+Use Node version 7.8 or above.

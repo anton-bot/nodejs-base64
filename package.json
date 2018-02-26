@@ -1,6 +1,6 @@
 {
   "name": "nodejs-base64",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The ultimate shortcut to the base64 encode/decode functions.",
   "main": "index.js",
   "scripts": {
