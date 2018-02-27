@@ -13,7 +13,7 @@ let decoded = base64decode(encoded); // "hey there"
 
 ## Installation ##
 
-Don't be confuse by the dot in the package name. That's all right.
+Install from command line:
 
 ```
 npm i --save nodejs-base64
@@ -21,4 +21,4 @@ npm i --save nodejs-base64
 
 ## Requirements ##
 
-Use Node version 7.8 or above.
+Tested on Node 8.9. May not work on Node below 7.8.
