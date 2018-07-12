@@ -1,10 +1,10 @@
 {
   "name": "nodejs-base64",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "The ultimate shortcut to the base64 encode/decode functions.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No tests for nodejs-base64\""
   },
   "repository": {
     "type": "git",
