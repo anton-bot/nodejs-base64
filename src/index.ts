@@ -1,6 +1,7 @@
 /**
  * @fileoverview The ultimate shortcut to the base64 encode/decode methods.
  * @author Anton Ivanov <anton@ivanov.hk>
+ * 
  */
 
 /**
@@ -8,7 +9,7 @@
  * @param {string|number} str - The string to encode.
  * @returns {string} The base64-encoded string.
  */
-function base64encode(str) {
+function base64encode(str: String | Number): String | Number{
   if (typeof str !== 'string') {
     if (typeof str === 'number') {
       str = str.toString();
@@ -24,7 +25,7 @@ function base64encode(str) {
  * Decodes the string from base64 to UTF-8.
  * @param {string} str - The base64-encoded string.
  */
-function base64decode(str) {
+export function base64decode(str: String): String {
   if (typeof str !== 'string') {
     throw new Error('Input value must be a string.');
   }
@@ -32,4 +33,4 @@ function base64decode(str) {
   return Buffer.from(str, 'base64').toString('utf8');
 }
 
-module.exports = { base64encode, base64decode };
+export default { base64encode, base64decode };
