@@ -9,7 +9,7 @@
  * @param {string|number} str - The string to encode.
  * @returns {string} The base64-encoded string.
  */
-function base64encode(str: String | Number): String | Number{
+function base64encode(str: string | number): string | number{
   if (typeof str !== 'string') {
     if (typeof str === 'number') {
       str = str.toString();
@@ -25,7 +25,7 @@ function base64encode(str: String | Number): String | Number{
  * Decodes the string from base64 to UTF-8.
  * @param {string} str - The base64-encoded string.
  */
-export function base64decode(str: String): String {
+export function base64decode(str: string): string {
   if (typeof str !== 'string') {
     throw new Error('Input value must be a string.');
   }
