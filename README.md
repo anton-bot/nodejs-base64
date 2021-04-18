@@ -2,6 +2,8 @@
 
 The ultimate shortcut for the base64 encode/decode functions in Node.js.
 
+TypeScript types available.
+
 ## Usage ##
 
 ```js
@@ -21,4 +23,4 @@ npm i --save nodejs-base64
 
 ## Requirements ##
 
-Tested on Node 8.9. May not work on Node below 7.8.
+Tested on Node 8-14. May not work on Node below 7.8.

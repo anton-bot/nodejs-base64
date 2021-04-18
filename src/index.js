@@ -5,7 +5,7 @@
  *
  */
 exports.__esModule = true;
-exports.base64decode = void 0;
+exports.base64decode = exports.base64encode = void 0;
 /**
  * Encodes the string using base64.
  * @param {string|number} str - The string to encode.
@@ -22,6 +22,7 @@ function base64encode(str) {
     }
     return Buffer.from(str, 'utf8').toString('base64');
 }
+exports.base64encode = base64encode;
 /**
  * Decodes the string from base64 to UTF-8.
  * @param {string} str - The base64-encoded string.
